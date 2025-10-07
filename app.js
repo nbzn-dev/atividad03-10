@@ -5,15 +5,14 @@ const cors = require('cors');
 const app = express();
 const port = 3000;
 
-// Middleware
 app.use(cors());
 app.use(express.json());
 
-// Configuração do banco de dados
+//  config do banco 
 const dbConfig = {
     host: 'localhost',
     user: 'seu_usuario',
-    password: 'sua_senha',
+    password: '123456',
     database: 'amigo_fiel'
 };
 
